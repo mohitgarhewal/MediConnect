@@ -1,4 +1,5 @@
 import React from "react";
+import logo1 from '../assets/logo1.png'
 import { assets } from "../assets/assets";
 
 const Footer = () => {
@@ -8,7 +9,7 @@ const Footer = () => {
       <div className="flex flex-col sm:grid grid-cols-[3fr_1fr_1fr] gap-14 my-10 mt-40 text-sm">
         <div>
           {/* LEFT SECTION */}
-          <img className="mb-5 w-40 leading-6 md:w-2/3" src={assets.logo} alt="" />
+          <img className="mb-5 w-40 leading-6 md:w-2/3" src={logo1} alt="" />
           <p className="w-full text-gray-600">
           Your Trusted Partner In Managing Your Healthcare Needs Conveniently And Efficiently.
           </p>
@@ -37,7 +38,7 @@ const Footer = () => {
         {/* COPYRIGHT TEXT */}
       <div>
         <hr />
-        <p className="py-5 text-sm text-center">CopyRight 2025@Prescripto All Rights Reserved</p>
+        <p className="py-5 text-sm text-center">CopyRight 2025@MediConnect All Rights Reserved</p>
       </div>
     </div>
   );
